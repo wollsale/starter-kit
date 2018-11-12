@@ -1,5 +1,8 @@
 /* IMPORT STYLE */
 import style from "../scss/main.scss";
 
+/* DEMO */
+import Foo from './sandbox';
+const { Baz } = Foo;
 
-import './sandbox';
+console.log(Foo.foo);
