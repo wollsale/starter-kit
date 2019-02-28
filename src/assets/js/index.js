@@ -1,5 +1,6 @@
 /* IMPORT STYLE */
 import style from "../scss/main.scss";
 
-
-import './sandbox';
+/* IMPORT SCRIPTS */
+import { lazyLoading } from './helpers/lazyLoading';
+import { helloWorld } from './sandbox';
